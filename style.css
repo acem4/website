@@ -1,0 +1,216 @@
+body {
+    background-color: white;
+	font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center;
+    background-color: #F2EFEB;
+    color: #13017C;
+    padding: 10px;
+    position: sticky;
+}
+header div {
+    display: inline-flex;
+}
+
+/* Navigation Link */
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #00214F;
+  box-shadow:0 6px 15px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#nav li {
+  float: left;
+}
+
+#nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 20px;
+}
+    
+#nav li a:hover { /* Change the link color to #111 (black) on hover */
+  background-color: #04AA6D;
+}
+
+/* Home page */
+#home {
+    text-align: center;
+    color: #1C2120;
+    padding: 50px;
+}
+#home h1 {
+    font-size: 60px;
+}
+button {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}
+
+/* About */
+#about {
+    background-color: #F2EFEB;
+    display: inline-flex;
+    padding: 30px 130px;
+    font-size: 30px;
+    color: #00214F;
+    align-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#about img {
+    border-radius: 50%;
+    border: 5px solid #00214F;
+}
+#about p {
+    position: relative;
+    top: 25px;
+    left: 50px;
+}
+
+/* Services */
+#services {
+    padding: 50px 20px;
+}
+#services {
+    text-align: center;
+}
+#services h1 {
+    color: #04AA6D;
+}
+.a p {
+    text-align: left;
+    color: #F5F3F5;
+}
+
+div .services {
+  width: 45%;
+  display: inline-block;
+  margin-left: 40px;
+  padding-top: 20px;
+
+}
+.a {
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 15px;  
+    margin-bottom: 40px;
+    background-color: #00214F;
+    font-size: 13px;
+}
+#services button {
+    text-align: center;
+}
+
+/* Notary*/
+ 
+#notary {
+    background-color: #F5F3F5;
+    text-align: center;
+    padding: 5px 150px 0px 150px;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#notary h1 {
+    color: #E7313D;
+}
+.container {
+    display: inline;
+     padding: 20px;
+}
+.container ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+/*Contact*/
+
+#contact {
+    padding: 90px;
+    display: inline-flex;
+    color: #13017C;
+}
+
+.contact {
+    position: relative;
+    left: 70px;
+}
+.contact h1 {
+    padding-top: 10px;
+    font-size: 40px;
+ }
+.contact li {
+    font-size: 30px;
+    padding-block: 20px;
+    color: #1C2120;
+ }
+
+/*Contact Icons*/
+.icons {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    padding-bottom: 10px;
+}
+
+/*testimonials*/
+#testimonials {
+    background-color: #04AA6D;
+    padding: 10px;
+
+}
+
+#testimonials h1, h3 {
+    text-align: center;
+    color: #00214F;
+}
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+    border: 1px solid black;
+    padding: 0px 15px;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+
+}
+
+.b h3 {
+    text-align: center;
+
+}
+
+footer {
+            background-color: black;
+            color: #fff;
+            text-align: center;
+            padding: 1PX;
+            bottom: 0;
+            width: 100%;
+}
+
